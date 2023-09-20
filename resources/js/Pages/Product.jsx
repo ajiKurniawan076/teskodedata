@@ -47,7 +47,7 @@ export default function Product({ product, auth }) {
                             Products List
                             <SecondaryButton className='ms-5' onClick={() => { setshow(true) }}>+ New Products </SecondaryButton>
                         </div>
-                        <table>
+                        <table className=' table-auto border-2 border-black'>
                             <thead>
                                 <tr>
                                     <Th>Id</Th>

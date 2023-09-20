@@ -74,7 +74,7 @@ export default function Transaction({auth, product, transaction}) {
                             Transactions List
                             <SecondaryButton type='button' className='ms-5' onClick={()=>{setshow(true)}}>+ New Transaction </SecondaryButton>
                         </div>
-                        <table className='table'>
+                        <table className='table-atuo border-2 border-black'>
                             <thead>
                                 <tr>
                                     <Th>Id</Th>
